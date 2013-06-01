@@ -1,1 +1,1 @@
-java -cp target/classes:"target/dependency/*" org.JettyLauncher
+java -cp target/classes:target/dependency/* org.JettyLauncher
