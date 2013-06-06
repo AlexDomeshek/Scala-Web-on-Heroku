@@ -6,10 +6,15 @@
         version="2.5">
     <servlet>
         <servlet-name>Hello</servlet-name>
-        <servlet-class>org.MyScalatraServlet</servlet-class>
+        <servlet-class>org.Router</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>Hello</servlet-name>
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
+    
+    
+    <listener>
+        <listener-class>org.AppListener</listener-class>
+    </listener>
 </web-app>
